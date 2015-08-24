@@ -1,0 +1,15 @@
+## Vagrant
+
+{% if grains['os'] == 'Ubuntu' %}
+
+vagrant:
+  pkg:
+    - installed
+
+
+
+
+
+
+
+{% endif %}

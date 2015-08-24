@@ -1,0 +1,15 @@
+## Gnome Desktop
+
+{% if grains['os'] == 'Ubuntu' %}
+
+#gnome3_ppa:
+#  pkgrepo.managed:
+#    - ppa: gnome3-team/gnome3
+
+
+ubuntu-gnome-desktop:
+  pkg:
+    - installed
+
+
+{% endif %}

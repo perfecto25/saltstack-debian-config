@@ -1,0 +1,10 @@
+## general OS config
+
+{% if grains['os'] == 'Ubuntu' %}
+
+ppa-purge:
+  pkg:
+    - installed
+
+
+{% endif %}

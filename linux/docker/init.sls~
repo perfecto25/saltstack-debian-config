@@ -1,0 +1,12 @@
+## Docker
+
+{% if grains['os'] == 'Ubuntu' %}
+
+docker:
+  cmd.run:
+    - name: wget -q0- https://get.docker.com/ | sh
+
+
+
+
+{% endif %}

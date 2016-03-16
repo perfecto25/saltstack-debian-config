@@ -10,6 +10,10 @@ curl:
   pkg:
     - installed
 
+tree:
+  pkg:
+    - installed
+
 ## command aliases
 /root/.bashrc:
   file.managed:
@@ -21,5 +25,8 @@ ttf-mscorefonts-installer:
   pkg:
     - installed
 
+pinta:
+  pkg:
+    - installed
 
 {% endif %}

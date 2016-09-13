@@ -1,7 +1,10 @@
 # saltstack-debian-config
 
+<<<<<<< HEAD
 # saltstack-debian-config
 
+=======
+>>>>>>> 33909dd93fc70ab287baa0f5194f6a7cd407d544
 I recently had to reinstall my laptops Ubuntu OS due to broken pkgs. \
 
 I installed Mint 17 instead and now need to get all my apps re-installed.

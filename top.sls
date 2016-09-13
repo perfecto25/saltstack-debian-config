@@ -2,16 +2,21 @@
 
 base:
   'mrxpalmeiras':
-    - linux.git
-    - linux.virtualbox
-    - linux.vagrant
-    - linux.debian-os-config
-    - linux.notepadqq
-    - linux.playonlinux
+   # - linux.git
+   # - linux.virtualbox
+   # - linux.vagrant
+   # - linux.debian-os-config
+   # - linux.notepadqq
+   # - linux.playonlinux
+    - linux.saltmaster 
+
 
   'centos7node':
     - linux.git
 
-  'blade86':
+  'mrxwin7':
     - win.notepadpp
     - win.firefox
+
+
+
